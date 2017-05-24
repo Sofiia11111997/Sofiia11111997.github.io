@@ -1,0 +1,11 @@
+.mygrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20px 1fr;
+    grid-template-areas: "name name name"
+                          "pic1 pic2 pic3";
+    
+}
+
+.name{
+    grid-area: name
+}
